@@ -25,3 +25,7 @@ a {
 * {
     box-sizing: border-box;
 }
+.navbar {
+    display: flex;
+    gap: 35px;
+}
