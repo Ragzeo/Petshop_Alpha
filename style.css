@@ -64,6 +64,12 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    height: 600px;
+    width: auto;
+}
+
+.jumpboton h1 {
+    margin: 50px 50px;
 }
 
 .navbar {
@@ -71,7 +77,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 5px 10px;
-    /* background-color: #72BF4E; */
+    background-color: #72BF4E;
 }
 
 .navbar__logo {
@@ -107,20 +113,69 @@ a {
     background-color: transparent;
 }
 
+.part2 {
+    background-color: #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    width: fit-content;
+    margin: 35px;
+}
+
+.part2 h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.catalogo__recomendado {
+    display: flex;
+    gap: 85px;
+}
+
+.catalogo__recomendado img {
+    height: 200px;
+    width: 300px;
+}
+
+.catalogo__recomendado__productos li {
+    height: 385px;
+    width: 300px;
+}
+
 .footer {
-    background-color: #72BF4E;
+    background-color: #024034;
     display: flex;
     flex-direction: column;
 }
 
 .footer__textos {
     display: flex;
+    justify-content: space-between;
+    margin: 10px 35px;
+}
+
+.footer__textos p {
+    color: #E6E6E6;
 }
 
 .footer__iconos {
     display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.footer__iconos svg {
+    color: #E6E6E6;
 }
 
 .footer__copy {
     display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.footer__copy {
+    color: #E6E6E6;
 }
