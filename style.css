@@ -17,11 +17,9 @@ body{
 
 * {
     box-sizing: border-box;
-
 /* Estas opciones de abajo son clave, poner siempre */
     outline: unset;
     border: unset;
-
     margin: unset;
     padding: unset;
 }
