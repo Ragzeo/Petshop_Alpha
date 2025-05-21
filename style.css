@@ -1,0 +1,272 @@
+@font-face {
+    font-family: "ink";
+    src: url(/assets/InknutAntiqua-Regular.ttf);
+}
+@font-face {
+    font-family: "inter";
+    src: url(/assets/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: "source";
+    src: url(/assets/SourceCodePro-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: #E6E6E6;
+}
+
+* {
+    box-sizing: border-box;
+/* Estas opciones de abajo son clave, poner siempre */
+    outline: unset;
+    border: unset;
+    margin: unset;
+    padding: unset;
+}
+
+h1{
+    font-size: 48px;
+    font-family: "ink";
+    color: #E6E6E6;
+}
+h2{
+    font-size: 40px;
+    font-family: "ink";
+}
+h3{
+font-size: 20px;
+font-family: "source";
+}
+
+a {
+    font-family: "source";
+}
+
+p{
+    font-size: 16px;
+    font-family: "source";
+    color: #030303bf;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #030303bf;
+}
+
+.jumpboton {
+    background-image: url(/assets/pexels-dariuskrs-2609107.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 600px;
+    width: auto;
+}
+
+.jumpboton h1 {
+    margin: 50px 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    /* background-color: #72BF4E; */
+    background: #72bf4e17;
+    backdrop-filter: blur(10px);
+}
+
+.navbar__logo a {
+    color: #E6E6E6;
+}
+
+.navbar__logo p {
+    color: #E6E6E6;
+    font-family: "ink";
+}
+
+.navbar__opciones__menu {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.navbar__opciones__menu a {
+    color: #E6E6E6;
+}
+
+.navbar__opciones__busqueda {
+    font-family: "source";
+    font-size: 16px;
+    display: flex;
+    gap: 5px;
+    background-color: #E6E6E6;
+    border-radius: 50px; 
+    padding: 5px 5px;
+}
+
+.navbar__opciones__busqueda input {
+    background-color: transparent;
+}
+
+.navbar__opciones__busqueda button {
+    background-color: transparent;
+}
+
+.part2 {
+    background-color: #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    /* height: 750px;
+    width: fit-content; */
+    margin: 35px;
+}
+
+.part2 h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.catalogo__recomendado {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.catalogo__recomendado__productos {
+    width: 300px;
+    background-color: #d4d4d4;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform .1s ease-in;
+}
+
+.catalogo__recomendado__productos:hover {
+    transform: scale(1.2);
+}
+/* Hover para darle animación al pasar mouse sobre elemento */
+
+.catalogo__recomendado__productos p {
+    margin-left: 5px;
+}
+
+.catalogo__recomendado__productos h3 {
+    margin-left: 5px;
+}
+
+.precio {
+    padding-left: 15px;
+}
+
+.catalogo__recomendado__productos h4 {
+    font-family: "source";
+    text-align: center;
+    font-weight: normal;
+    color: #E6E6E6;
+    background-color: #72BF4E;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
+}
+
+.catalogo__recomendado__productos img {
+    height: 200px;
+    width: 100%;
+}
+
+.footer {
+    background-color: #024034;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__textos {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 35px;
+}
+
+.footer__textos p {
+    color: #E6E6E6;
+}
+
+.footer__iconos {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.footer__iconos svg {
+    color: #E6E6E6;
+}
+
+.footer__copy {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.footer__copy {
+    color: #E6E6E6;
+}
+
+.pagina_de_producto_body {
+    display: flex;
+    flex-direction: column;
+}
+
+.pagina_de_producto_item {
+    background-color: #E6E6E6;
+    border-radius: 25px;
+    display: flex;
+}
+
+.pagina_de_producto_item img {
+    height: 600px;
+    width: 400px;
+}
+
+.jumpboton__catalogo {
+    background-image: url(assets/fondo\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 600px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.jumpboton__catalogo h1 {
+    margin: 50px 50px;
+    gap: center;
+}
+
+.catalogo__full {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 35px;
+}
+
+.meme img {
+    width: 50%;
+    height: 50%;
+}
+
+.meme p {
+    background-color: #024034;
+    color: #E6E6E6;
+}
